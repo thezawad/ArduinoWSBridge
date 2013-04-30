@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/bridge.py" line="25" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c65b43f-1055-4479-a4a9-50b432d80591" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/utilities/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/utilities/serial_utilities.py" />
+      <change type="DELETED" beforePath="C:\Users\user\PycharmProjects\ArduinoWSBridge\generation\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\PycharmProjects\ArduinoWSBridge\generation\arduino_generator.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\PycharmProjects\ArduinoWSBridge\tests\facebooktests.py" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\user\PycharmProjects\ArduinoWSBridge\wsplugins\configuration.py" afterPath="$PROJECT_DIR$/configuration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ArduinoWSBridge.iml" afterPath="$PROJECT_DIR$/.idea/ArduinoWSBridge.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/serial/__init__.py" afterPath="$PROJECT_DIR$/libs/serial/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bridge.py" afterPath="$PROJECT_DIR$/bridge.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsplugins/facebook/configuration.py" afterPath="$PROJECT_DIR$/wsplugins/facebook/configuration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/serial/tools/list_ports.py" afterPath="$PROJECT_DIR$/libs/serial/tools/list_ports.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/serial/tools/list_ports_windows.py" afterPath="$PROJECT_DIR$/libs/serial/tools/list_ports_windows.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsplugins/facebook/plugin.py" afterPath="$PROJECT_DIR$/wsplugins/facebook/plugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/serial/serialwin32.py" afterPath="$PROJECT_DIR$/libs/serial/serialwin32.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ArduinoWSBridge.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/facebooktests.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1366894726205" ignored="false" />
-    <file path="/configuration.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1366922481314" ignored="false" />
-    <file path="/plugin.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1366907421573" ignored="false" />
+    <file path="/configuration.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367363510004" ignored="false" />
+    <file path="/plugin.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367018930715" ignored="false" />
     <file path="/facebook.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1366901979983" ignored="false" />
-    <file path="/bridge.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1366922660991" ignored="false" />
-    <file path="/Dummy.txt" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367008041463" ignored="false" />
+    <file path="/bridge.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367363576405" ignored="false" />
+    <file path="/Dummy.txt" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367355979823" ignored="false" />
+    <file path="/serial_utilities.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367021015739" ignored="false" />
+    <file path="/list_ports.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367021106906" ignored="false" />
+    <file path="/list_ports_windows.py" changelist="8c65b43f-1055-4479-a4a9-50b432d80591" time="1367021176133" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,47 +46,32 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ArduinoWSBridge" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facebooktests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/facebooktests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="32" selection-end="172" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#32#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bridge.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bridge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="533" selection-end="533" vertical-scroll-proportion="0.7972603">
+            <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.45945945">
               <folding>
-                <element signature="e#30#58#0" expanded="true" />
+                <element signature="e#31#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arduino_generator.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generation/arduino_generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="configuration.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsplugins/configuration.py">
+        <entry file="file://$PROJECT_DIR$/configuration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+            <state line="16" column="33" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +80,7 @@
       <file leaf-file-name="configuration.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsplugins/facebook/configuration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+            <state line="7" column="34" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,39 +95,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="charsetprober.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/requests/packages/charade/charsetprober.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="10" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/requests/packages/urllib3/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="365" column="14" selection-start="10299" selection-end="10299" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rfc2217.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/serial/rfc2217.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="2" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="plugin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsplugins/facebook/plugin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="6" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#32#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsplugins/facebook/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsplugins/facebook/libs/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facebook.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsplugins/facebook/libs/facebook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="61" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.0">
+            <state line="75" column="17" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,6 +142,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -146,26 +150,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Tests/fbtests.py" />
-        <option value="$PROJECT_DIR$/wsextensions/configuration.py" />
-        <option value="$PROJECT_DIR$/tests/facebooktests.py" />
         <option value="$PROJECT_DIR$/arduino_generator.py" />
         <option value="$PROJECT_DIR$/wsextensions/facebook/configuration.py" />
         <option value="$PROJECT_DIR$/wsextensions/facebook/extension.py" />
         <option value="$PROJECT_DIR$/wsplugins/facebook/libs/facebook.py" />
-        <option value="$PROJECT_DIR$/wsplugins/facebook/plugin.py" />
-        <option value="$PROJECT_DIR$/wsplugins/facebook/configuration.py" />
-        <option value="$PROJECT_DIR$/wsplugins/configuration.py" />
         <option value="$PROJECT_DIR$/wsplugins/__init__.py" />
+        <option value="$PROJECT_DIR$/libs/serial/__init__.py" />
+        <option value="$PROJECT_DIR$/libs/serial/serialwin32.py" />
+        <option value="$PROJECT_DIR$/wsplugins/facebook/plugin.py" />
+        <option value="$PROJECT_DIR$/wsplugins/configuration.py" />
+        <option value="$PROJECT_DIR$/libs/utilities/serial_utilities.py" />
+        <option value="$PROJECT_DIR$/libs/serial/tools/list_ports.py" />
+        <option value="$PROJECT_DIR$/libs/serial/tools/list_ports_windows.py" />
+        <option value="$PROJECT_DIR$/wsplugins/twitter/configuration.py" />
+        <option value="$PROJECT_DIR$/wsplugins/facebook/configuration.py" />
+        <option value="$PROJECT_DIR$/configuration.py" />
         <option value="$PROJECT_DIR$/bridge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="69" />
-    <option name="width" value="1250" />
-    <option name="height" value="730" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -193,6 +201,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,49 +234,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArduinoWSBridge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArduinoWSBridge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsplugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArduinoWSBridge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArduinoWSBridge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -281,9 +263,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\ArduinoWSBridge\wsplugins\twitter" />
       <recent name="$PROJECT_DIR$/wsplugins/facebook/libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\ArduinoWSBridge" />
       <recent name="$PROJECT_DIR$/generation" />
       <recent name="$PROJECT_DIR$/libs" />
     </key>
@@ -298,8 +282,6 @@
       <option name="SDK_HOME" value="/usr/bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ArduinoWSBridge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/facebooktests.py" />
@@ -317,8 +299,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsplugins/facebook" />
       <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ArduinoWSBridge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsplugins/facebook/plugin.py" />
@@ -336,13 +316,13 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ArduinoWSBridge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bridge.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonCover" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -355,8 +335,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ArduinoWSBridge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
@@ -370,8 +348,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ArduinoWSBridge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
@@ -393,8 +369,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ArduinoWSBridge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
@@ -420,7 +394,7 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -430,6 +404,7 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -458,25 +433,46 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="69" width="1250" height="730" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32733223" sideWeight="0.49916944" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.49848485" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6746167" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6743044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6746167" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2439394" sideWeight="0.6746167" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32569557" sideWeight="0.5008306" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32733223" sideWeight="0.49916944" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3535188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.49545455" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.49848485" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35264054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -508,7 +504,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -518,10 +514,6 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit (not completed)" />
@@ -535,7 +527,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="first commit (not completed)" />
@@ -544,27 +535,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/facebooktests.py">
+    <entry file="file://$PROJECT_DIR$/libs/utilities/serial_utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#32#60#0" expanded="true" />
-          </folding>
+        <state line="6" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/facebooktests.py">
+    <entry file="file://$PROJECT_DIR$/libs/serial/tools/list_ports.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#32#60#0" expanded="true" />
-          </folding>
+        <state line="28" column="14" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generation/arduino_generator.py">
+    <entry file="file://$PROJECT_DIR$/libs/serial/tools/list_ports_windows.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="16" column="33" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -576,39 +563,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsplugins/facebook/libs/__init__.py">
+    <entry file="file://$PROJECT_DIR$/libs/requests/hooks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="25" column="2" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/facebooktests.py">
+    <entry file="file://$PROJECT_DIR$/libs/requests/packages/charade/charsetprober.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="32" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#32#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsplugins/facebook/libs/facebook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="61" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.0">
+        <state line="60" column="10" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsplugins/facebook/configuration.py">
+    <entry file="file://$PROJECT_DIR$/libs/requests/packages/urllib3/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+        <state line="365" column="14" selection-start="10299" selection-end="10299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsplugins/configuration.py">
+    <entry file="file://$PROJECT_DIR$/libs/serial/rfc2217.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+        <state line="12" column="2" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -622,18 +600,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsplugins/facebook/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#32#83#0" expanded="true" />
-          </folding>
+        <state line="75" column="17" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsplugins/facebook/configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bridge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="533" selection-end="533" vertical-scroll-proportion="0.7972603">
+        <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.45945945">
           <folding>
-            <element signature="e#30#58#0" expanded="true" />
+            <element signature="e#31#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,13 +4,18 @@ __author__ = 'apolikamixitos'
 import wsplugins.facebook.libs.facebook as facebook
 import wsplugins.facebook.configuration as settings
 
-class FacebookWS:
+#The plugin class name MUST BE named "WS"
+class WS:
 
+    #You can declare the number of the pins (each var for a pin)
     NbrInbox=0
     NbrFriendRequests=0
     Nbrnotifications=0
 
-
+    """
+    This function look for any updates available from the Facebook account via the GraphAPI
+    and updates the class vars with the number of each type
+    """
     def FBCheck(self):
         req=''
 
@@ -31,6 +36,9 @@ class FacebookWS:
 
         self.ParseResults(res)
 
+    """
+    This method parse the returned JSON response and extract the required information and update them
+    """
     def ParseResults(self,res):
 
         NbrFriendRequests=0
@@ -59,9 +67,13 @@ class FacebookWS:
         self.Nbrnotifications=Nbrnotifications
         self.NbrInbox=NbrInbox
 
+
+
+    # this method is required for all the plugins, it must be declared static.
+    # returns the list of pins and the value attributed to them. {PINNUMBER:VALUEUSED}
     @staticmethod
     def GETPINS():
-        FB = FacebookWS()
+        FB = WS()
         FB.FBCheck()
         return {
             settings.PIN_FRIENDREQUESTS:FB.NbrFriendRequests,

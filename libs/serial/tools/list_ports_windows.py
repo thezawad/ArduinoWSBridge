@@ -6,8 +6,8 @@ def ValidHandle(value, func, arguments):
         raise ctypes.WinError()
     return value
 
-import serial
-from serial.win32 import ULONG_PTR, is_64bit
+import libs.serial as serial
+from libs.serial.win32 import ULONG_PTR, is_64bit
 from ctypes.wintypes import HANDLE
 from ctypes.wintypes import BOOL
 from ctypes.wintypes import HWND
