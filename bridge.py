@@ -27,7 +27,7 @@ class Bridge:
             name = plugin_name[0]
             arduino_cmd = plugin_name[2]
             try:
-                print 'Initializing '+name+'\'s plugin thread ...'
+                print_output(name,'Initializing plugin thread ...')
                 thread.start_new_thread( self.Watch, (plugin,name,configuration.SLEEP_TIME,arduino_cmd,) )
             except:
                 print "Error: unable to start thread"
@@ -35,9 +35,10 @@ class Bridge:
 
     def Watch(self,plugin,name,sleeptime,arduino_cmd):
         while 1:
-            print name+' plugin pins checking ...'
+            print_output(name,'Updating the values ...')
+
             ws = plugin.WS.update_values()
-            #print plugin.__name__
+
             for pin in config.ENABLED_PINS:
                 if config.ENABLED_PINS[pin] is not None:
                     #Check if the current PIN is related with the plugin
@@ -51,14 +52,17 @@ class Bridge:
                     if part_name == name:
                         value = getattr(ws, method)()
                         pin_number = pin.replace('PIN_','')
-                        print 'Pin '+str(pin_number)+' Val: '+str(value)
+                        #print 'Pin '+str(pin_number)+' Val: '+str(value)
 
                         #Send the value and the command to the pin
                         self.serial_ins.write(arduino_cmd+" "+str(pin_number)+" "+str(value)+"\n")
-                        #print self.serial_ins.readline()
+                        print_output(name,'Response : '+self.serial_ins.readline()[:-1])
 
-            print name+' plugin updated.'
+            print_output(name,'Values updated.')
             time.sleep(sleeptime)
+
+def print_output(name,message):
+    print '['+name+']: '+message
 
 if __name__ == "__main__":
     bridge = Bridge()
