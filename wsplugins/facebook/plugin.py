@@ -68,15 +68,20 @@ class WS:
         self.NbrInbox=NbrInbox
 
 
+    #You define the methods that are going to be used to send the data to a specific PIN
+    def inbox(self):
+        return self.NbrInbox
+
+    def friend_requests(self):
+        return self.NbrFriendRequests
+    
+    def notifications(self):
+        return self.Nbrnotifications
 
     # this method is required for all the plugins, it must be declared static.
-    # returns the list of pins and the value attributed to them. {PINNUMBER:VALUEUSED}
+    # returns the instance of the class
     @staticmethod
-    def GETPINS():
+    def update_values():
         FB = WS()
         FB.FBCheck()
-        return {
-            settings.PIN_FRIENDREQUESTS:FB.NbrFriendRequests,
-            settings.PIN_NOTIFICATIONS:FB.Nbrnotifications,
-            settings.PIN_INBOX:FB.NbrInbox
-        }
+        return FB
