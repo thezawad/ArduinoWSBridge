@@ -7,11 +7,11 @@ import requests
 class WS:
 
     #You can declare the number of the pins (each var for a pin)
-    views=0
-    likes=0
-    dislikes=0
-    favorites=0
-    comments=0
+    _views=-1
+    _likes=-1
+    _dislikes=-1
+    _favorites=-1
+    _comments=-1
 
     """
     This function look for any updates available from the Facebook account via the GraphAPI
@@ -26,11 +26,11 @@ class WS:
     """
     def ParseResults(self,res):
 
-        self.views = res['entry']['yt$statistics']['viewCount']
-        self.likes = res['entry']['yt$rating']['numLikes']
-        self.dislikes = res['entry']['yt$rating']['numDislikes']
-        self.favorites = res['entry']['yt$statistics']['favoriteCount']
-        self.comments = res['entry']['gd$comments']['gd$feedLink']['countHint']
+        self._views = int(res['entry']['yt$statistics']['viewCount'])
+        self._likes = int(res['entry']['yt$rating']['numLikes'])
+        self._dislikes = int(res['entry']['yt$rating']['numDislikes'])
+        self._favorites = int(res['entry']['yt$statistics']['favoriteCount'])
+        self._comments = int(res['entry']['gd$comments']['gd$feedLink']['countHint'])
 
         #print 'Views {}, Likes {}, Dislikes {}, Favs {}, Comments {}'.format(self.views,self.likes,self.dislikes,self.favorites,self.comments)
 
