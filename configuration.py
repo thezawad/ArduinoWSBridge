@@ -9,15 +9,15 @@ RATE = 9600
 #Tuples where we define the name, the module path and the arduino command
 ENABLED_PLUGINS={
     ('Facebook','wsplugins.facebook','FB_CMD'),
-    #('Twitter','wsplugins.twitter'),
+    ('Youtube','wsplugins.youtube','YT_CMD'),
 }
 
 #ArduinoUNO Model
 ENABLED_PINS = {
     'PIN_1':'Facebook.inbox',
     'PIN_2':'Facebook.notifications',
-    #'PIN_3':'Twitter.notifications',
-    'PIN_4':None,
+    'PIN_3':'Youtube.views',
+    'PIN_4':'Youtube.likes',
     'PIN_5':None,
     'PIN_6':None,
     'PIN_7':None,
