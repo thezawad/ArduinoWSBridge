@@ -1,8 +1,10 @@
 # ArduinoWSBridge #
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/apolikamixitos/arduinowsbridge/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 **ArduinoWSBridge** (Arduino WebServices Bridge) is a multiplatform app based on Python with which you can easily use the information provided by the API services on the web and that you can easily integrate their with your arduino boards.
 
-## Principle : ##
+## Principle ##
 
 The principle of the application is simple, if you want to use a service, you have to create the plugin that communicates it.
 
@@ -80,9 +82,9 @@ For each declared PIN, we specify a method defined in a specific plugin using it
 
 ### Arduino board : ###
 
-To use the Arduino with the app, you have just to include `SerialCommand` library, which it was forked from this [original project](http://ORIGINALPROJECTGITHUBLINK).
+To use the Arduino with the app, you have just to include `SerialCommand` library, which it was forked from this [original project](https://github.com/kroimon/Arduino-SerialCommand).
 
-You can checkout this Arduino [sketch example](http://LINKTOEXAMPLE) to have a clear view.
+You can checkout this Arduino [sketch example](https://github.com/apolikamixitos/ArduinoWSBridge/tree/arduino_sketch/arduino_sketch/example) to have a clear view.
 
 
 #### Some explanations for the sketch example file : ####
@@ -109,7 +111,7 @@ After the installation and the configuration, you can now run directly the file 
 
 ## Contributions ##
 
-If you are a software developer, an Arduino enthusiastic or even just passing around, please make sure to push this project more, we have to get the knowledge to everyone, with the Power of the Internet of things, we can now do ANYTHING !
+If you are a software developer, an Arduino enthusiastic or even just passing by, please make sure to push this project more, with the power of Arduino, we can now do ANYTHING !
 
 ## TODO: ##
 
