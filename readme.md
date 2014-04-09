@@ -111,10 +111,10 @@ After the installation and the configuration, you can now run directly the file 
 
 ## Contributions ##
 
-If you are a software developer, an Arduino enthusiastic or even just passing by, please make sure to push this project more, with the power of Arduino, we can now do ANYTHING !
+If you are a software developer, an Arduino enthusiastic or even just passing by, please make sure to push this project more, with the power of Arduino and the community, we can do more.
 
 ## TODO: ##
 
 - Create documentation for plugin creation
-- Create an example plugin for Youtube
+- *Create an example plugin for Youtube - **DONE***
 - Create a PIP install package
