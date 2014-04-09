@@ -56,7 +56,7 @@ class Bridge:
 
                         #Send the value and the command to the pin
                         self.serial_ins.write(arduino_cmd+" "+str(pin_number)+" "+str(value)+"\n")
-                        print_output(name,'Response : '+self.serial_ins.readline()[:-1])
+                        #print_output(name,'Response : '+self.serial_ins.readline()[:-1])
 
             print_output(name,'Values updated.')
             time.sleep(sleeptime)
